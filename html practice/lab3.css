@@ -1,0 +1,76 @@
+.sticker{
+    text-align: center;
+}
+
+/*the only global element, changes all the font and background color.
+the rest are local elements.*/
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: pink;
+}
+
+/*ID*/
+#line-break{
+    border: 2px dotted
+}
+
+.number-text{
+    color: blue;
+    font-size: 20px;
+}
+
+.image{
+    padding: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.background{
+    background-color: white;
+}
+
+.normal-text{
+    font-size: 25px;
+}
+
+/*ID*/
+#main-title{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 40px;
+}
+
+.titles{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*ID*/
+#border{
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+/*ID*/
+#border2{
+    border: 1px solid black;
+    background-color: aliceblue;
+    width: 200px;
+    line-height: 25px; /*new styling element not discussed in class*/
+}
+
+/*ID*/
+#border3{
+    border: 1px solid black;
+    background-color: aliceblue;
+    line-height: 20px;
+    margin: 20px;
+    height: 50px; 
+    width: 900px;
+    word-spacing: 2px; /*new styling element not discussed in class*/
+    font-variant: small-caps; /*new styling element not discussed in class*/
+    font-size: 17px;
+}
